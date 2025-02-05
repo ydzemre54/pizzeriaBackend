@@ -46,12 +46,8 @@ if (isset($_POST['nom']) && isset($_POST['prenom']) && isset($_POST['adresse']) 
         form {
             width: 400px;
             margin: auto;
-            margin-top: 15px;
-
-        }
-
-        .bouton {
             margin-top: 10px;
+
         }
 
         h1 {
@@ -60,6 +56,9 @@ if (isset($_POST['nom']) && isset($_POST['prenom']) && isset($_POST['adresse']) 
         h6{
             position: absolute;
             margin-left: 10px;
+        }
+        input{
+            margin-bottom: 8px;
         }
     </style>
 </head>
