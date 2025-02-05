@@ -1,0 +1,20 @@
+{
+    "image": "cm.jpg",
+    "nom": "Chevre-miel",
+    "base": "crème fraîche",
+    "ingredients": [
+        "chèvre",
+        "miel",
+        "Mozzarella",
+        "Basilic",
+        "Huile d'olive"
+    ],
+    "options_diet": {
+        "halal": true,
+        "vegetarienne": true,
+        "vegane": false,
+        "sans_gluten": false
+    },
+    "prix": 11,
+    "devise": "€"
+}

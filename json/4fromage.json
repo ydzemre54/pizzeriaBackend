@@ -1,0 +1,21 @@
+{
+    "alt": "4 Fromages",
+    "image": "4f.jpg",
+    "nom": "4 fromages",
+    "base": "tomate",
+    "ingredients": [
+        "Mozzarella",
+        "chèvre",
+        "Gorgonzola",
+        "Parmesan",
+        "Origan"
+    ],
+    "options_diet": {
+        "halal": true,
+        "vegetarienne": true,
+        "vegane": false,
+        "sans_gluten": false
+    },
+    "prix": 10,
+    "devise": "€"
+}

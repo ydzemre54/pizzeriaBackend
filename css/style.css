@@ -1,0 +1,343 @@
+* {
+    transition: 0.6s all;
+}
+
+
+body {
+    width: 100%;
+    margin: auto;
+    background-image:url(../img/bgp.jpg);
+    background-size: 100%;
+    color: white;
+}
+
+
+main {
+    width: 800px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+#login{
+    position: absolute;
+    top: 0;
+}
+
+header {
+    background-color: rgb(32, 25, 22);
+}
+
+
+
+header img {
+    width: 150px;
+    display: block;
+    margin: auto;
+}
+
+h1 {
+    display: block;
+    margin: auto;
+}
+h6{
+    text-align: center;
+    margin: auto;
+    
+}
+
+h5 {
+    text-align: center;
+}
+
+h4 {
+    text-align: center;
+}
+
+
+
+select option {
+    text-align: center;
+}
+
+.card {
+    width: 700px;
+    background-image: url(../img/bg.jpg);
+}
+
+.card-text {
+    font-size: 30px;
+}
+
+.card-body {
+    font-size: 20px;
+    border-bottom: solid grey;
+
+}
+
+.card img {
+    width: 400px;
+    height: 250px;
+    display: block;
+    margin: auto;
+    padding: 15px;
+}
+
+.card img:hover {
+    scale: 1.25;
+}
+
+main a {
+    text-decoration: none;
+    padding: 20px;
+}
+
+.btn {
+    display: block;
+    margin: auto;
+}
+
+.btn:hover {
+    scale: 1.1;
+    transition: 0.4s all;
+    
+}
+
+footer img {
+    display: block;
+    margin: auto;
+}
+
+footer p {
+    color: rgb(0, 0, 0);
+    position: absolute;
+    right: 400px;
+}
+
+.tel {
+
+    width: 100%;
+    padding: 15px;
+    padding-left: 50px;
+    background-color: grey;
+    margin: auto;
+    color: black;
+}
+
+.highlight {
+    display: none;
+}
+
+
+@media screen and (max-width: 1200px) {
+    body {
+        width: 1200px;
+        margin: auto;
+        background-image: url(../img/bgp.jpg);
+        background-size: 1200px;
+        color: white;
+    }
+
+
+    .row {
+        margin: 0;
+    }
+
+
+    main {
+        width: 600px;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    header {
+        background-color: rgb(32, 25, 22);
+    }
+
+    header img {
+        width: 150px;
+        display: block;
+        margin: auto;
+    }
+
+    h1 {
+        display: block;
+        margin: auto;
+    }
+
+    h5 {
+        text-align: center;
+    }
+
+    select option {
+        text-align: center;
+    }
+
+    .card {
+        margin: auto;
+    }
+
+
+
+    .btn {
+        display: block;
+        margin: auto;
+    }
+
+    footer img {
+        width: 70%;
+
+    }
+
+    footer p {
+        left: 200px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    body {
+        width: 900px;
+        margin: auto;
+        background-image: url(../img/bgp.jpg);
+        background-size: 860px;
+        color: white;
+    }
+
+
+    .row {
+        margin: 0;
+    }
+
+
+    main {
+        width: 500px;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    header {
+        background-color: rgb(32, 25, 22);
+    }
+
+    header img {
+        width: 150px;
+        display: block;
+        margin: auto;
+    }
+
+    h1 {
+        display: block;
+        margin: auto;
+    }
+
+    h5 {
+        text-align: center;
+    }
+
+    select option {
+        text-align: center;
+    }
+
+    .card {
+        margin: auto;
+    }
+
+    .card img {
+        width: 300px;
+        height: 200px;
+    }
+
+
+    .btn {
+        display: block;
+        margin: auto;
+    }
+
+    footer img {
+        width: 300px;
+        margin-left: 12px;
+    }
+
+    footer p {
+        position: absolute;
+        right: 200px;
+        font-size: small;
+    }
+}
+
+
+@media screen and (max-width: 560px) {
+    body {
+        width: 100%;
+        margin: auto;
+        background-image: url(../img/bgp.jpg);
+        background-size: 560px;
+        color: white;
+    }
+
+    .row {
+        margin: 0;
+    }
+
+
+    main {
+        width: 100%;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    header {
+        background-color: rgb(32, 25, 22);
+    }
+
+    header img {
+        width: 150px;
+        display: block;
+        margin: auto;
+    }
+
+    h1 {
+        font-size: 3rem;
+        display: block;
+        margin: auto;
+    }
+
+    h5 {
+        text-align: center;
+    }
+
+    select option {
+        text-align: center;
+    }
+
+    .card {
+        margin: auto;
+        width: 400px;
+    }
+
+
+
+    .btn {
+        display: block;
+        margin: auto;
+    }
+
+    footer img {
+        display: none;
+    }
+
+    footer p {
+        display: none;
+    }
+
+    .tel {
+        text-align: center;
+    }
+}

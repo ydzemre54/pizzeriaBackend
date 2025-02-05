@@ -1,0 +1,20 @@
+{
+    "alt": "Poulet bbq",
+    "image": "bbq.jpg",
+    "nom": "Poulet BBQ",
+    "base": "tomate",
+    "ingredients": [
+        "Mozzarella",
+        "Poulet BBQ",
+        "Poivrons",
+        "Oignons"
+    ],
+    "options_diet": {
+        "halal": true,
+        "vegetarienne": true,
+        "vegane": false,
+        "sans_gluten": false
+    },
+    "prix": 12,
+    "devise": "€"
+}

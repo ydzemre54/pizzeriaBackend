@@ -1,0 +1,21 @@
+
+{
+    "alt": "marguerita",
+    "image": "marguerita.jpg",
+    "nom": "Margherita",
+    "base": "tomate",
+    "ingredients": [
+        "Mozzarella",
+        "Basilic",
+        "Huile d'olive"
+    ],
+    "options_diet": {
+        "halal": true,
+        "vegetarienne": true,
+        "vegane": false,
+        "sans_gluten": false
+    },
+    "prix": 8,
+    "devise": "€"
+}
+

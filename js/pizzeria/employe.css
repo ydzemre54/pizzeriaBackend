@@ -1,0 +1,57 @@
+body {
+    background-color: black;
+    color: white;
+    margin: auto;
+}
+
+main {
+    width: 1800px;
+    margin: auto;
+}
+
+main h3 {
+    margin-top: 100px;
+    text-align: center;
+}
+
+header p {
+    margin: 15px;
+
+}
+
+header div {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.recu {
+    border: blue solid;
+    padding: 15px;
+}
+
+.prepa {
+    border: rgb(255, 0, 0) solid;
+    padding: 15px;
+}
+
+.termine {
+    border: rgb(0, 255, 55) solid;
+    padding: 15px;
+}
+
+.btn {
+    margin-left: 60px;
+    margin-bottom: 20px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+footer h6 {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin-right: 60px;
+    margin-bottom: 20px;
+}

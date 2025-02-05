@@ -1,0 +1,19 @@
+{
+    "image": "saumon.jpg",
+    "nom": "Saumon",
+    "base": "crème fraîche",
+    "ingredients": [
+        "Mozzarella",
+        "saumon",
+        "Huile d'olive",
+        "Origan"
+    ],
+    "options_diet": {
+        "halal": true,
+        "vegetarienne": true,
+        "vegane": false,
+        "sans_gluten": false
+    },
+    "prix": 12,
+    "devise": "€"
+}
